@@ -3,7 +3,7 @@
 #
 #### BaseDao
 
-You can use this Base if you using [Room](https://developer.android.com/training/data-storage/room?hl=id) as your local database.
+You can use this `Base` if you using [Room](https://developer.android.com/training/data-storage/room?hl=id) as your local database.
 
 - Make Base Class
 ```java
@@ -71,7 +71,7 @@ public abstract class DummyDao implements BaseDao<DummyTable> {
 
 #
 #### BaseListResponse
-You cal use this Base if you using [Retrofit](https://square.github.io/retrofit/) on your project ass your `Http Client`.
+You cal use this `Base` if you using [Retrofit](https://square.github.io/retrofit/) on your project as your `Http Client`.
 
 - Make Base Class
 ```java
@@ -125,7 +125,7 @@ public interface ApiService {
 
 #
 #### BaseObjectResponse
-You cal use this Base if you using [Retrofit](https://square.github.io/retrofit/) on your project ass your `Http Client`.
+You can use this `Base` if you using [Retrofit](https://square.github.io/retrofit/) on your project as your `Http Client`.
 
 - Make Base Class
 ```java
