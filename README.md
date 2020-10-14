@@ -157,11 +157,11 @@ public class BaseObjectResponse<T> {
 ```java
 public class DataItem{
 
-	@SerializedName("id")
-	private int id;
-
-	@SerializedName("name")
-	private String name;
+    @SerializedName("id")
+    private int id;
+    
+    @SerializedName("name")
+    private String name;
     
     //Constructor
     
