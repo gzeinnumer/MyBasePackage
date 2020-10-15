@@ -1,6 +1,5 @@
 # MyBasePackage
 
-#
 #### BaseDao
 
 You can use this `Base` if you using [Room](https://developer.android.com/training/data-storage/room?hl=id) as your local database.
