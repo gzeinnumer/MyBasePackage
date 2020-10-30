@@ -208,6 +208,40 @@ public interface ApiService {
 }
 ```
 
+#
+#### BaseActivity
+- Make Base Class
+```java
+public abstract class BaseActivity extends AppCompatActivity {
+
+    private static final String TAG = "BaseActivity";
+
+    @Override
+    protected void onCreate(@Nullable Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+    }
+
+    protected void onShowLoading(){
+
+    }
+
+}
+```
+
+- Use Base Class
+```java
+public class MainActivity extends BaseActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_main);
+
+        onShowLoading();
+    }
+}
+```
+
 ---
 
 ```
